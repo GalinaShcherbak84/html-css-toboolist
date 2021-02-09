@@ -5,7 +5,7 @@
     font-family: arial;
 }
 body{
-    background-color: lightgray;
+    background-color: hsl(200deg 20% 97%);;
 }
 
 /* header */
@@ -25,4 +25,31 @@ header{
 h1{
     display: inline-block;
 }
+ /* add task/add section */
+ .add{
+     margin: 50px 10%;
+     background-color: white;
+     font-size: 12px;
+     border-radius: 10px 10px 0 0;
+     
+ }
+
+ .add_task{
+    display: inline-block;
+    margin: 10px 0 10px 40px;
+    background-color:hsl(204deg 86% 61%);
+    padding:10px;
+    color:white;
+    border-radius: 5px;
+    
+ }
+ .add_section{
+    display: inline-block;
+    margin: 10px 0 10px 10px;
+    border:solid lightslategray 1px;
+    padding:10px;
+    color:lightslategray;
+    border-radius: 5px;
+    
+ }
     
