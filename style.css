@@ -132,8 +132,34 @@ h1{
 
  }
  .freccia{
-     background-color: white;
-     font-size: 20px;
-     margin-right: 5px;
+    background-color: white;
+    font-size: 20px;
+    margin-right: 5px;
+ }
+ .check{
+    display: inline-block;
+    text-align: center;
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    border:solid #63bfa8 1px;
+    border-radius: 50%;
+    color:#63bfa8;
+    font-size: 12px;
+    margin-right: 15px;
+
+ }
+ .remove{
+    display: inline-block;
+    text-align: center;
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    border:solid red 1px;
+    border-radius: 50%;
+    color:red ;
+    font-size: 12px;
+    margin-right: 15px;
+
  }
     
