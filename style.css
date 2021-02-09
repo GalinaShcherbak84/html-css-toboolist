@@ -2,10 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: arial;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
 }
 body{
-    background-color: hsl(200deg 20% 97%);;
+    background-color: hsl(200deg 20% 97%);
+    margin:0 10% 0 10%;
 }
 
 /* header */
@@ -17,20 +19,21 @@ header{
     
 }
 .logo{
-   
+    background-color: white;
     display: inline-block;
     vertical-align: middle;
     margin: 0 0 10px 10px;
 }
 h1{
     display: inline-block;
+    background-color: white;
 }
  /* add task/add section */
  .add{
-     margin: 50px 10%;
-     background-color: white;
-     font-size: 12px;
-     border-radius: 10px 10px 0 0;
+    margin: 50px 10% 0 10%;
+    background-color: white;
+    font-size: 12px;
+    border-radius: 10px 10px 0 0;
      
  }
 
@@ -44,6 +47,7 @@ h1{
     
  }
  .add_section{
+    background-color: white;
     display: inline-block;
     margin: 10px 0 10px 10px;
     border:solid lightslategray 1px;
@@ -51,5 +55,80 @@ h1{
     color:lightslategray;
     border-radius: 5px;
     
+ }
+ /* lista */
+ .lista{
+    background-color: white;
+    margin: 2px 10% 0 10%;
+    padding: 30px 0 30px 40px;
+    background-color: white;
+    border-radius: 0 0 10px 10px ;
+    color:hsl(222deg 9% 29%);;
+    
+     
+ }
+ ul{
+    background-color: white;
+    list-style: none;
+ }
+ .box{
+    background-color: hsl(204deg 86% 61%);
+    font-size: 11px;
+    color:white;
+    padding: 7px;
+    border-radius: 10px;
+    margin-left: 5px;
+ }
+ .box1{
+    background-color: hsl(262deg 68% 67%);
+    font-size: 11px;
+    color:white;
+    padding: 7px;
+    border-radius: 10px;
+    margin-left: 5px;
+
+ }
+ .box2{
+    background-color: hsl(165deg 42% 57%);
+    font-size: 11px;
+    color:white;
+    padding: 7px;
+    border-radius: 10px;
+    margin-left: 5px;
+ }
+ .box3{
+    background-color: hsl(34deg 88% 57%);
+    font-size: 11px;
+    color:white;
+    padding: 7px;
+    border-radius: 10px;
+    margin-left: 5px;
+ }
+ .box4{
+    background-color: hsl(328deg 60% 62%);
+    font-size: 11px;
+    color:white;
+    padding: 7px;
+    border-radius: 10px;
+    margin-left: 5px;
+ }
+ .box5{
+    background-color: hsl(69deg 68% 47%);
+    font-size: 11px;
+    color:white;
+    padding: 7px;
+    border-radius: 10px;
+    margin-left: 5px;
+ }
+ li{
+    background-color: white;
+    margin-bottom: 20px;
+    font-weight:500;
+ }
+ h4{
+    background-color: white;
+    margin-bottom: 10px;
+    font-weight: 900;
+
  }
     
