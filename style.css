@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+body{
+    background-color: lightgray;
+}
+
+/* header */
+
+header{
+    background-color:white;
+    height: 80px;
+    line-height: 80px;
+    
+}
+.logo{
+   
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0 10px 10px;
+}
+h1{
+    display: inline-block;
+}
+    
